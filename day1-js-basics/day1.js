@@ -114,5 +114,38 @@ arr.sort()
 
 // FOR LOOP
 for (let i = 1; i <= 5; i++) {
-    console.log(i)
+    console.log(i);
+
+}
+//example program to print even numbers 
+
+for (let i = 2; i <= 15; i += 2) {
+    console.log(i);
+}
+for (let k = 15; k <= 2; k -= 2) {
+    console.log(k);
+}
+//While LOOP
+let i = 1
+while (i <= 5) {
+    console.log(i);
+    i++;
+}
+
+//samll guess game using while loop
+
+const favmovie = "avengers";
+
+let guess = prompt("guess my movie");
+
+while ((guess != favmovie) && (guess != "quit")) {
+    if (guess == "quit") {
+        console.log("you quit");
+        break;
+    }
+    guess = prompt("wrong guess try again");
+}
+
+if (guess == favmovie) {
+    alert("congrats");
 }
