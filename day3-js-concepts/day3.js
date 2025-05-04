@@ -98,3 +98,5 @@ const person = { name: "Alice", age: 22 };
 const { name, age } = person;
 console.log(name); // Alice
 console.log(age);
+
+
