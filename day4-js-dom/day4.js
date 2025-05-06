@@ -7,7 +7,7 @@ const title = document.getElementById("myTitle");
 
 //document.querySelector()
 
-const btn = document.querySelector("button");
+const btnt = document.querySelector("button");
 const box = document.querySelector(".myClass");
 
 //. document.querySelectorAll()
