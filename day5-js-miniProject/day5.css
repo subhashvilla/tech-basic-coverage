@@ -8,6 +8,7 @@ body {
     border-radius: 20%;
     border: 10px solid black;
     margin: 3rem;
+    cursor: pointer;
 }
 
 .btn-container {
@@ -29,9 +30,18 @@ body {
 }
 
 .purple {
-    background-color: #819ff9;
+    background-color: rgb(216, 110, 216);
 }
 
 .flash {
     background-color: white;
+}
+
+
+.userflash {
+    opacity: 0.5;
+}
+
+.game-over {
+    background-color: crimson;
 }
